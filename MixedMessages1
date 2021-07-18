@@ -1,2 +1,7 @@
-console.log('MixedMessages')
+nameMessages = ['Taylor Atwood', 'Russel Orhii', 'Ray Williams', 'Jesus Olivares', 'Austin Perkins']
+descriptionMessages = ['is the GOAT', 'is awful', 'has potential', 'will win', 'will lose']
 
+mixedMessage = nameMessages[Math.floor(Math.random()*nameMessages.length)] + ' ' + descriptionMessages[Math.floor(Math.random()*descriptionMessages.length)]
+
+
+console.log(mixedMessage)
